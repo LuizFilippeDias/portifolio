@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "development"
-  ],
+  "extends": ["development"],
   "hints": {
     "axe/name-role-value": [
       "default",
@@ -14,10 +12,7 @@
     "compat-api/css": [
       "default",
       {
-        "ignore": [
-          "backdrop-filter",
-          "-webkit-backdrop-filter"
-        ]
+        "ignore": ["backdrop-filter", "-webkit-backdrop-filter"]
       }
     ],
     "button-type": "off"
