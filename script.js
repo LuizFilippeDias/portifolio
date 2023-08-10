@@ -15,4 +15,8 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/assets/Avatar.png")
   }
+
+  if (html.classList.contains()) {
+    img.setAttribute("src", "./assets/assets/Avatar.png")
+  }
 }
