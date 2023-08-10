@@ -3,29 +3,19 @@
     "development"
   ],
   "hints": {
-    "axe/name-role-value": [
-      "default",
-      {
-        "link-name": "off",
-        "button-name": "off"
-      }
-    ],
-    "disown-opener": "off",
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "backdrop-filter",
-          "-webkit-backdrop-filter"
-        ]
-      }
-    ],
-    "button-type": "off",
     "axe/text-alternatives": [
       "default",
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "disown-opener": "off"
   }
 }
